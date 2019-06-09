@@ -1,8 +1,8 @@
 var el = x => document.getElementById(x);
 
 function showPicker() {
-  el("file-input").click();
-}
+    el("file-input").click();
+  }
 
 function showPicked(input) {
   el("upload-label").innerHTML = input.files[0].name;
@@ -38,4 +38,3 @@ function analyze() {
   fileData.append("file", uploadFiles[0]);
   xhr.send(fileData);
 }
-
