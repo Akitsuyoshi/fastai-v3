@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1MSl-yrCniD-G1VGWFL6CdNrfgHgrNqPy'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1B9U8HQXEmkBu8g2ZjDS_C4VXd03Jq8jT'
+export_file_name = 'export(2).pkl'
 
-classes = ['agriculture','artisinal_mine','bare_ground','blooming','clear','cloudy','cultivation','habitation','haze','partly_cloudy','primary','road','selective_logging','water']
+classes = ['coke', 'irohasu', 'lg21', 'others', 'r1']
 path = Path(__file__).parent
 
 app = Starlette()
