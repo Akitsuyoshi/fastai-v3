@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y git python3-dev gcc \
 COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
+# RUN !pip install --upgrade fastai torch==1.0.0
 
 COPY app app/
 
